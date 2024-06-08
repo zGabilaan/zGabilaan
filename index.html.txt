@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Static Web App</title>
+</head>
+<body>
+    <h1>Bienvenidos a mi Aplicación Web</h1>
+    <p>¿Te gusta esta aplicación web?</p>
+    <form id="survey-form">
+        <label>
+            <input type="radio" name="like" value="yes"> Sí
+        </label>
+        <label>
+            <input type="radio" name="like" value="no"> No
+        </label>
+        <button type="submit">Enviar</button>
+    </form>
+    <div id="response"></div>
+    <script src="script.js"></script>
+</body>
+</html>
